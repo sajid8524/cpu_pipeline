@@ -1,0 +1,69 @@
+$date
+	Sun Jun 29 12:22:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_forwarding_unit $end
+$var wire 2 ! forward_b [1:0] $end
+$var wire 2 " forward_a [1:0] $end
+$var reg 5 # ex_rs1 [4:0] $end
+$var reg 5 $ ex_rs2 [4:0] $end
+$var reg 5 % mem_rd [4:0] $end
+$var reg 1 & mem_reg_write $end
+$var reg 5 ' wb_rd [4:0] $end
+$var reg 1 ( wb_reg_write $end
+$scope module uut $end
+$var wire 5 ) ex_rs1 [4:0] $end
+$var wire 5 * ex_rs2 [4:0] $end
+$var wire 5 + mem_rd [4:0] $end
+$var wire 1 & mem_reg_write $end
+$var wire 5 , wb_rd [4:0] $end
+$var wire 1 ( wb_reg_write $end
+$var reg 2 - forward_a [1:0] $end
+$var reg 2 . forward_b [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+0(
+b0 '
+0&
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#110000
+b10 "
+b10 -
+1&
+b1 %
+b1 +
+b1 #
+b1 )
+#120000
+b1 !
+b1 .
+b10 "
+b10 -
+1(
+b10 '
+b10 ,
+b10 $
+b10 *
+#130000

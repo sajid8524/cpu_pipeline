@@ -43,7 +43,7 @@ module tb_register_file;
         write_enable = 0;
 
         // Create waveform file
-        $dumpfile("waveforms/register_file.vcd");
+        $dumpfile("register_file.vcd");
         $dumpvars(0, tb_register_file);
 
         // Apply reset

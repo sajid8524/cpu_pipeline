@@ -46,7 +46,7 @@ endtask
 
 // Main test sequence
 initial begin
-    $dumpfile("waveforms/alu_test.vcd");
+    $dumpfile("alu_test.vcd");
     $dumpvars(0, tb_alu);
     
     $display("Starting ALU Tests...");
